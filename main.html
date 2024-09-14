@@ -1,6 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Navbar with Functional Buttons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Horizontal Navbar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#Course">Course</a></li>
+            <li><a href="#Quiz">Quiz</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Content -->
+    <div id="Course" class="section">
+        <h1>Course:</h1>
+       <iframe src="https://docs.google.com/presentation/d/1rnniAP3mcoUMndN3B5RvgPIKhShZiboxhtNF6eNMXfE/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+
+    <div id="Quiz" class="section">
+         <head>
         <title>quiz app</title>
         <link rel="stylesheet" href="styles/style.css">
     </head>
@@ -27,4 +52,18 @@
     <script src="scripts/main.js"></script>
 
     </body>
+        
+    </div>
+
+    <div id="About" class="section">
+        <h1>Services</h1>
+        <p>Here are the services we offer.</p>
+    </div>
+
+    <div id="Contact" class="section">
+        <h1>Contact</h1>
+        <p>Contact us for more information.</p>
+    </div>
+
+</body>
 </html>
