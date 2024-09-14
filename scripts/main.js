@@ -86,7 +86,7 @@ function resetQuestions(){
         answerButtons.removeChild(answerButtons.firstChild)
     }
     explain.innerHTML = "";
-    explainapp.style.display = "none";
+    //explainapp.style.display = "none";
 }
 
 function checkAnswer(stat){
