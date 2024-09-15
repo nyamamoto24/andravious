@@ -51,6 +51,7 @@ const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const explain = document.getElementById("explaindesc")
 const explainapp = document.getElementById("bodyapp")
+const ending = document.getElementById("endscreen")
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -59,6 +60,7 @@ function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
+    ending.innerHTML = "";
     showQuestion();
 }
 
@@ -124,8 +126,9 @@ function handleNextButton(){
 function endQuiz(){
     resetQuestions();
     questionText.innerHTML = `You scored ${score} out of ${questions.length}`
-    nextButton.innerHTML = "Try Again"
+    nextButton.innerHTML = "Try Again";
     nextButton.style.display = "block";
+    ending.innerHTML = "End Text"
 }
 
 
