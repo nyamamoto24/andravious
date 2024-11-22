@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awareness of Fake Headlines</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Horizontal Navbar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#Course">Course</a></li>
+            <li><a href="#Quiz">Quiz</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Content -->
+    <div id="Course" class="section">
+        <h1>Course:</h1>
+        <iframe src="https://docs.google.com/presentation/d/1rnniAP3mcoUMndN3B5RvgPIKhShZiboxhtNF6eNMXfE/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+
+    <div id="Quiz" class="section">
+        <div class="app">
+            <h1>Test your skills!</h1>
+            <div class="quiz">
+                <h2 id="question">insert question here</h2>
+                <p id="endscreen"></p>
+                <div id="answer-buttons">
+                    <!-- Answer buttons will be dynamically inserted here -->
+                </div>
+                <button id="next-btn">Next</button>
+            </div>
+            <div class="app" id="bodyapp" style="display:none">
+                <h2 id="explaititle">Explanation</h2>
+                <p id="explaindesc">This body text will be used to explain why the answer is right.</p>
+            </div>
+        </div>    
+    </div>
+
+    <div id="About" class="section">
+        <h1>Services</h1>
+        <p>More services coming in the future!</p>
+    </div>
+
+    <div id="Contact" class="section">
+        <h1>Contact</h1>
+        <p>Contact us for more information.
+        </p>
+        <p>
+            Andrew Tran: andrewalexandertran@gmail.com
+        </p>
+        <p>
+            Nathan Yamamoto: nathanyamamoto24@gmail.com
+        </p>
+        <p>
+            Nirmay Dharnidharka: coolnirmay@gmail.com
+        </p>
+    </div>
+
+    <script src="main_updated.js"></script>
+
+</body>
+</html>
